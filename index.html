@@ -99,6 +99,30 @@
         <li><a href="http://www.kaleidoscopeapp.com">Kaleidoscope</a> (a powerful git merge tool)</li>
     </ul>
 
+    <h1><a id="How_to_install"></a><strong>Installation guide</strong></h1>
+    <h3>Requirements</h3>
+    <ul>
+        <li>The <a href="https://spring.io/tools">Spring Tool Suite</a> IDE</li>
+        <li>The <a href="http://it.apache.contactlab.it/tomcat/tomcat-8/v8.0.36/bin/apache-tomcat-8.0.36.zip">Apache Tomcat 8.0.36</a> server</li>
+    </ul>
+    <h3>Installation guide</h3>
+    <ol>
+        <li>From STS, create a new Maven Project</li>
+        <li>Configure the new project with these settings:
+        <ol>
+            <li>Archetype: Webapp 2.0</li>
+            <li>Artifact ID: it.polito.ifttt.ai</li>
+            <li>Group ID: progetto</li>
+        </ol>
+        </li>
+        <li>Add the project to Tomcat Server</li>
+        <li><a href="github-mac://openRepo/https://github.com/cristiano-c/progetto">Clone</a> or download the <a href="https://github.com/cristiano-c/progetto/archive/master.zip">.zip</a></li>
+        <li>Copy, paste and replace the GitHub folder content onto the STS project yet created</li>
+        <li>Make sure to relocate the Git repository in the correct folder</li>
+        <li>On STS click "Update Maven Project" and wait the libraries downloading</li>
+        <li>Run on Server, select Tomcat click and enjoy</li>
+    </ol>
+
     <h1><a id="Screenshots"></a><strong>Screenshots</strong></h1>
     <h5>The home page</h5>
     <img src="images/Schermata%202016-08-22%20alle%2012.54.10.png">
