@@ -9,6 +9,10 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+#frontPageLink{
+  color: white;
+}
+
 a {
   color: #159957;
   text-decoration: none; }
